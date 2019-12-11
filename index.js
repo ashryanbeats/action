@@ -1,3 +1,8 @@
+const os = require("os");
+
 // Action!
 console.log("action!");
-process.exit(1);
+
+const platform = os.platform();
+
+console.log(platform);
